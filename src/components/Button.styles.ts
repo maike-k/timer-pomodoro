@@ -22,10 +22,8 @@ border:0;
 border-radius: 5px;
 margin-right: 5px;
 
-background-color:  ${props => props.theme.secondary};
+background-color:  ${props => props.theme.primary};
 color: ${props => props.theme.color}
 
-/* ${props => {
-    return css`background-color: ${buttonVariants[props.variant]}`
-  }} */
+
 `
