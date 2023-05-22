@@ -6,7 +6,9 @@ export const GlobalStyle = createGlobalStyle`
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-size: 62.5%;
+}
+
+html {
 }
 
 :focus {
@@ -23,6 +25,6 @@ body {
 body, input-security, textarea, button {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem
+  font-size: 1rem;
 }
 `
