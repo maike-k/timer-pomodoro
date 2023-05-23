@@ -7,8 +7,8 @@ import { Router } from './components/Router'
 export function App() {
   return (
     <BrowserRouter>
-      <Router />
       <ThemeProvider theme={defaultTheme}>
+        <Router />
         <GlobalStyle />
       </ThemeProvider>
     </BrowserRouter>
