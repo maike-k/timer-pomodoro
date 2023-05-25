@@ -1,9 +1,9 @@
-// Para gerenciar as minha páginas
+// Gerenciador de páginas/rotas
 
 import { Routes, Route } from 'react-router-dom'
-import { Home } from '../pages/home'
-import { History } from '../pages/History'
-import { DefaultLayouts } from '../layouts/DefaultLayouts'
+import { Home } from './pages/home'
+import { History } from './pages/History'
+import { DefaultLayouts } from './layouts/DefaultLayouts'
 
 export const Router = () => {
   return (
