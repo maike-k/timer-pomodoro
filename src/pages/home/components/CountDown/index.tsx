@@ -15,7 +15,6 @@ export const CountDown = () => {
   const totalSeconds = activeCycle ? activeCycle.minutesAmounts * 60 : 0
 
   useEffect(() => {
-    // CountDown
     let interval: number
 
     if (activeCycle) {
@@ -44,7 +43,6 @@ export const CountDown = () => {
     markCurrentCycleAsFinished
   ])
 
-  // CountDown
   const currentSeconds = activeCycle ? totalSeconds - amountSecondsPassed : 0
   const minutesAmount = Math.floor(currentSeconds / 60)
   const secondsAmount = currentSeconds % 60
@@ -53,7 +51,6 @@ export const CountDown = () => {
   const seconds = String(secondsAmount).padStart(2, '0')
 
   useEffect(() => {
-    // Mostrar na Aba os tempo
     if (activeCycle) {
       document.title = `${minutes}:${seconds}`
     } else {

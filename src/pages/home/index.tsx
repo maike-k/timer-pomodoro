@@ -32,6 +32,7 @@ export const Home = () => {
   })
 
   const handleCreateNewCycle = (data: NewCycleFormData) => {
+    console.log(CreateNewCycle)
     CreateNewCycle(data)
     reset()
   }
