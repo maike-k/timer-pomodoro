@@ -6,6 +6,7 @@ Timer_Pomodoro
 <li> React
 <li> Typescript
 <li> Styled-Components
+<li> react-router-dom
 </ul>
 
 ## Funcionalidades ✅
